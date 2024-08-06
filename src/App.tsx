@@ -8,7 +8,7 @@ import GeneratedWords from './components/GeneratedWords';
 
 
 
-
+ 
 function App() {
   const {state,words,timeLeft,typed, errors, restart,totalTyped} = useEngine();
   return (
